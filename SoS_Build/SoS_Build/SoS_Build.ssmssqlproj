@@ -18,32 +18,7 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
-      <Items>
-        <FileNode Name="CreateTable_datAddresses.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>CreateTable_datAddresses.sql</FullPath>
-        </FileNode>
-        <FileNode Name="CreateTable_luCities.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>CreateTable_luCities.sql</FullPath>
-        </FileNode>
-        <FileNode Name="CreateTable_luCountries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>CreateTable_luCountries.sql</FullPath>
-        </FileNode>
-        <FileNode Name="CreateTable_luProvinces.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>CreateTable_luProvinces.sql</FullPath>
-        </FileNode>
-      </Items>
+      <Items />
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />

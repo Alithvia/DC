@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[luCountries]    Script Date: 2/19/2018 9:53:59 PM ******/
+/****** Object:  Table [dbo].[luCountries]    Script Date: 3/13/2018 6:10:27 PM ******/
 SET ANSI_NULLS ON
 GO
 

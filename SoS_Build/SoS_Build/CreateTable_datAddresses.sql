@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datAddresses]    Script Date: 2/20/2018 2:16:03 AM ******/
+/****** Object:  Table [dbo].[datAddresses]    Script Date: 3/13/2018 6:03:40 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,7 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datAddresses](
-	[AddressID] [int] IDENTITY NOT NULL,
+	[AddressID] [int] IDENTITY(1,1) NOT NULL,
 	[Address] [nvarchar](50) NOT NULL,
 	[City] [nvarchar](30) NOT NULL,
 	[Province] [nvarchar](2) NULL,

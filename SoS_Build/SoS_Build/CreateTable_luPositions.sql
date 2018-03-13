@@ -1,0 +1,21 @@
+USE [SoS_Build]
+GO
+
+/****** Object:  Table [dbo].[luPositions]    Script Date: 3/13/2018 6:02:07 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[luPositions](
+	[PositionID] [int] IDENTITY(1,1) NOT NULL,
+	[Position] [nvarchar](20) NOT NULL,
+ CONSTRAINT [PK_Table_1] PRIMARY KEY CLUSTERED 
+(
+	[PositionID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

@@ -1,0 +1,21 @@
+USE [SoS_Build]
+GO
+
+/****** Object:  Table [dbo].[luPhoneTypes]    Script Date: 3/13/2018 6:02:11 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[luPhoneTypes](
+	[PhoneTypeID] [int] IDENTITY(1,1) NOT NULL,
+	[PhoneType] [nvarchar](10) NOT NULL,
+ CONSTRAINT [PK_luPhoneTypes] PRIMARY KEY CLUSTERED 
+(
+	[PhoneTypeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
