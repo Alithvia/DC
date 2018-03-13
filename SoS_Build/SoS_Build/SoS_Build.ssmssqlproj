@@ -18,7 +18,110 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="CreateTable_datAddresses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datAddresses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datClients.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datClients.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datContacts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datContacts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datEmployees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datEmployees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datPeople.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datPeople.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datPhones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datPhones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datVendors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datVendors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncClientAddresses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncClientAddresses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncClientContacts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncClientContacts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncEmployeeAddresses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncEmployeeAddresses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncEmployeeContacts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncEmployeeContacts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncVendorAddresses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncVendorAddresses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luCities.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luCities.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luCountries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luCountries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luPhoneTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luPhoneTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luPositions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luPositions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luProvinces.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luProvinces.sql</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />
