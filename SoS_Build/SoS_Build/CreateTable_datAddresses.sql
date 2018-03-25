@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datAddresses]    Script Date: 3/13/2018 6:03:40 PM ******/
+/****** Object:  Table [dbo].[datAddresses]    Script Date: 3/25/2018 8:55:19 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -11,9 +11,7 @@ GO
 CREATE TABLE [dbo].[datAddresses](
 	[AddressID] [int] IDENTITY(1,1) NOT NULL,
 	[Address] [nvarchar](50) NOT NULL,
-	[City] [nvarchar](30) NOT NULL,
-	[Province] [nvarchar](2) NULL,
-	[Country] [nvarchar](2) NULL,
+	[CityID] [int] NOT NULL,
  CONSTRAINT [PK_datAddresses] PRIMARY KEY CLUSTERED 
 (
 	[AddressID] ASC
@@ -21,4 +19,11 @@ CREATE TABLE [dbo].[datAddresses](
 ) ON [PRIMARY]
 GO
 
+ALTER TABLE [dbo].[datAddresses]  WITH CHECK ADD  CONSTRAINT [FK_datAddresses_luCities] FOREIGN KEY([CityID])
+REFERENCES [dbo].[luCities] ([CityID])
+ON UPDATE CASCADE
+GO
+
+ALTER TABLE [dbo].[datAddresses] CHECK CONSTRAINT [FK_datAddresses_luCities]
+GO
 

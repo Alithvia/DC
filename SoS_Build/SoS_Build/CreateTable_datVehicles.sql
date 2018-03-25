@@ -1,7 +1,7 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datVehicles]    Script Date: 3/12/2018 3:30:54 PM ******/
+/****** Object:  Table [dbo].[datVehicles]    Script Date: 3/25/2018 8:59:06 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,10 +9,10 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datVehicles](
-	[VehicleID] [int] NOT NULL,
-	[LicensePlate] [varchar](8) NOT NULL,
+	[VehicleID] [int] IDENTITY(1,1) NOT NULL,
+	[LicensePlate] [nvarchar](8) NOT NULL,
 	[TypeID] [int] NOT NULL,
-	[DatePurchased] [datetime] NOT NULL,
+	[DatePurchased] [date] NOT NULL,
  CONSTRAINT [PK_dboVehicles] PRIMARY KEY CLUSTERED 
 (
 	[VehicleID] ASC
@@ -20,10 +20,11 @@ CREATE TABLE [dbo].[datVehicles](
 ) ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[datVehicles]  WITH CHECK ADD  CONSTRAINT [FK_datVehicles_datVehicleTypes] FOREIGN KEY([TypeID])
-REFERENCES [dbo].[datVehicleTypes] ([TypeID])
+ALTER TABLE [dbo].[datVehicles]  WITH CHECK ADD  CONSTRAINT [FK_datVehicles_luVehicleTypes] FOREIGN KEY([TypeID])
+REFERENCES [dbo].[luVehicleTypes] ([TypeID])
+ON UPDATE CASCADE
 GO
 
-ALTER TABLE [dbo].[datVehicles] CHECK CONSTRAINT [FK_datVehicles_datVehicleTypes]
+ALTER TABLE [dbo].[datVehicles] CHECK CONSTRAINT [FK_datVehicles_luVehicleTypes]
 GO
 

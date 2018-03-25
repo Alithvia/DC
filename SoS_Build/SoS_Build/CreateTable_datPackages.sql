@@ -1,7 +1,7 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datPackages]    Script Date: 3/12/2018 3:28:58 PM ******/
+/****** Object:  Table [dbo].[datPackages]    Script Date: 3/25/2018 8:57:15 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,8 +9,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datPackages](
-	[PackageID] [int] NOT NULL,
-	[Package Number] [varchar](30) NOT NULL,
+	[PackageID] [int] IDENTITY(1,1) NOT NULL,
+	[PackageNumber] [nvarchar](50) NOT NULL,
 	[TrayID] [int] NOT NULL,
  CONSTRAINT [PK_dboPackages] PRIMARY KEY CLUSTERED 
 (
@@ -21,6 +21,7 @@ GO
 
 ALTER TABLE [dbo].[datPackages]  WITH CHECK ADD  CONSTRAINT [FK_datPackages_datTrays] FOREIGN KEY([TrayID])
 REFERENCES [dbo].[datTrays] ([TrayID])
+ON UPDATE CASCADE
 GO
 
 ALTER TABLE [dbo].[datPackages] CHECK CONSTRAINT [FK_datPackages_datTrays]

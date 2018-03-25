@@ -1,7 +1,7 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datOrderDetails]    Script Date: 3/12/2018 3:21:34 PM ******/
+/****** Object:  Table [dbo].[datOrderDetails]    Script Date: 3/25/2018 8:56:41 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,10 +9,12 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datOrderDetails](
-	[DetailsID] [int] NOT NULL,
+	[DetailsID] [int] IDENTITY(1,1) NOT NULL,
 	[OrderNumber] [int] NOT NULL,
 	[Quantity] [int] NOT NULL,
 	[SamosaTypeID] [int] NOT NULL,
+	[DateTime] [datetime] NOT NULL,
+	[TotalCost] [money] NOT NULL,
  CONSTRAINT [PK_datOrderDetails] PRIMARY KEY CLUSTERED 
 (
 	[DetailsID] ASC
@@ -21,10 +23,10 @@ CREATE TABLE [dbo].[datOrderDetails](
 GO
 
 ALTER TABLE [dbo].[datOrderDetails]  WITH CHECK ADD  CONSTRAINT [FK_datOrderDetails_datCustomerOrders] FOREIGN KEY([OrderNumber])
-REFERENCES [dbo].[datCustomerOrders] ([OrderNumber])
+REFERENCES [dbo].[datClientOrders] ([OrderNumber])
+ON UPDATE CASCADE
 GO
 
 ALTER TABLE [dbo].[datOrderDetails] CHECK CONSTRAINT [FK_datOrderDetails_datCustomerOrders]
 GO
-
 

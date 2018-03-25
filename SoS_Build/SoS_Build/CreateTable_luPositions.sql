@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[luPositions]    Script Date: 3/13/2018 6:02:07 PM ******/
+/****** Object:  Table [dbo].[luPositions]    Script Date: 3/25/2018 9:03:09 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -17,5 +17,4 @@ CREATE TABLE [dbo].[luPositions](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-
 

@@ -1,7 +1,7 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datTrays]    Script Date: 3/12/2018 3:29:13 PM ******/
+/****** Object:  Table [dbo].[datTrays]    Script Date: 3/25/2018 8:58:40 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,8 +9,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datTrays](
-	[TrayID] [int] NOT NULL,
-	[WorkstationID] [int] NOT NULL,
+	[TrayID] [int] IDENTITY(1,1) NOT NULL,
+	[WorkStationID] [int] NOT NULL,
  CONSTRAINT [PK_datTrays] PRIMARY KEY CLUSTERED 
 (
 	[TrayID] ASC

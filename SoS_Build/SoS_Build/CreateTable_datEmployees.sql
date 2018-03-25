@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datEmployees]    Script Date: 3/13/2018 6:03:11 PM ******/
+/****** Object:  Table [dbo].[datEmployees]    Script Date: 3/25/2018 8:56:24 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -20,9 +20,9 @@ GO
 
 ALTER TABLE [dbo].[datEmployees]  WITH CHECK ADD  CONSTRAINT [FK_datEmployees_luPositions] FOREIGN KEY([PositionID])
 REFERENCES [dbo].[luPositions] ([PositionID])
+ON UPDATE CASCADE
 GO
 
 ALTER TABLE [dbo].[datEmployees] CHECK CONSTRAINT [FK_datEmployees_luPositions]
 GO
-
 

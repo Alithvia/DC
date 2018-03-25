@@ -1,7 +1,7 @@
 USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datClients]    Script Date: 3/13/2018 6:03:18 PM ******/
+/****** Object:  Table [dbo].[datClients]    Script Date: 3/25/2018 8:55:52 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -10,12 +10,11 @@ GO
 
 CREATE TABLE [dbo].[datClients](
 	[ClientID] [int] IDENTITY(1,1) NOT NULL,
-	[ClientName] [nchar](30) NOT NULL,
+	[ClientName] [nvarchar](30) NOT NULL,
  CONSTRAINT [PK_datClients] PRIMARY KEY CLUSTERED 
 (
 	[ClientID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-
 
