@@ -1,0 +1,37 @@
+1. luCountries
+2. luProvinces
+3. luCities
+4. datVendors
+5. datAddresses
+6. jncVendorAddresses
+7. luPositions
+8. datEmployees
+9. luPhoneTypes
+10. datPhones
+11. datPeople
+12. luContactType
+13. datContacts
+14. jncEmployeeContacts
+15. datClients
+16. jncClientAddresses
+17. jncClientContacts
+18. datClientOrders
+19. ***datTrays
+20. ***datPackages
+21. ***jncOrdersAndPackages
+22. luVehicleType
+23. datVehicles
+24. datVehicleCleaning
+25. datShipments
+26. datPurchaseOrders
+27. luUnits
+28. luIngredients
+29. datIngredientInventory
+30. luAssemblyTypes
+31. datAssembly
+32. jncAssembly
+33. datBoxes
+34. luTimeTypes
+35. datHACCPTimes (Floating)
+36. datHACCPTemps (Floating)
+37. datMeasurements (Floating)
