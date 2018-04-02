@@ -1,7 +1,7 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datPurchaseOrders]    Script Date: 3/12/2018 3:33:19 PM ******/
+/****** Object:  Table [dbo].[datPurchaseOrders]    Script Date: 4/2/2018 1:35:47 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -9,21 +9,23 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[datPurchaseOrders](
-	[PurchaseOrderID] [int] NOT NULL,
-	[SupplierPriceID] [int] NOT NULL,
-	[Quantity] [int] NULL,
+	[PurchaseID] [int] IDENTITY(1,1) NOT NULL,
+	[PONumber] [int] NOT NULL,
+	[VendorID] [int] NOT NULL,
 	[Date] [datetime] NOT NULL,
  CONSTRAINT [PK_datPurchaseOrders] PRIMARY KEY CLUSTERED 
 (
-	[PurchaseOrderID] ASC
+	[PurchaseID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[datPurchaseOrders]  WITH CHECK ADD  CONSTRAINT [FK_datPurchaseOrders_datSupplierPrices] FOREIGN KEY([SupplierPriceID])
-REFERENCES [dbo].[datSupplierPrices] ([SupplierPriceID])
+ALTER TABLE [dbo].[datPurchaseOrders]  WITH CHECK ADD  CONSTRAINT [FK_datPurchaseOrders_datVendors] FOREIGN KEY([VendorID])
+REFERENCES [dbo].[datVendors] ([VendorID])
+ON UPDATE CASCADE
 GO
 
-ALTER TABLE [dbo].[datPurchaseOrders] CHECK CONSTRAINT [FK_datPurchaseOrders_datSupplierPrices]
+ALTER TABLE [dbo].[datPurchaseOrders] CHECK CONSTRAINT [FK_datPurchaseOrders_datVendors]
 GO
+
 
