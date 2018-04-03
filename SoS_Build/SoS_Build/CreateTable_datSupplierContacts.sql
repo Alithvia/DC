@@ -1,38 +1,38 @@
-USE [BootCamp1]
+USE [SoS_Build]
 GO
 
-/****** Object:  Table [dbo].[datSupplierContacts]    Script Date: 3/12/2018 3:31:49 PM ******/
+/****** Object:  Table [dbo].[datVendorContacts]    Script Date: 3/12/2018 3:31:49 PM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[datSupplierContacts](
-	[SupplierContactID] [int] NOT NULL,
+CREATE TABLE [dbo].[datVendorContacts](
+	[VendorContactID] [int] NOT NULL,
 	[ContactID] [int] NOT NULL,
-	[TypeID] [int] NOT NULL,
+	ContactTypeID [tinyint] NOT NULL,
 	[Email] [varchar](50) NOT NULL,
 	[PhoneID] [int] NOT NULL,
-	[SupplierID] [int] NOT NULL,
- CONSTRAINT [PK_datSupplierContacts] PRIMARY KEY CLUSTERED 
+	[VendorID] [smallint] NOT NULL,
+ CONSTRAINT [PK_datVendorContacts] PRIMARY KEY CLUSTERED 
 (
-	[SupplierContactID] ASC
+	[VendorContactID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[datSupplierContacts]  WITH CHECK ADD  CONSTRAINT [FK_datSupplierContacts_datContactType] FOREIGN KEY([TypeID])
-REFERENCES [dbo].[datContactType] ([TypeID])
+ALTER TABLE [dbo].[datVendorContacts]  WITH CHECK ADD  CONSTRAINT [FK_datVendorContacts_luContactType] FOREIGN KEY(ContactTypeID)
+REFERENCES [dbo].[luContactType] (ContactTypeID)
 GO
 
-ALTER TABLE [dbo].[datSupplierContacts] CHECK CONSTRAINT [FK_datSupplierContacts_datContactType]
+ALTER TABLE [dbo].[datVendorContacts] CHECK CONSTRAINT [FK_datVendorContacts_luContactType]
 GO
 
-ALTER TABLE [dbo].[datSupplierContacts]  WITH CHECK ADD  CONSTRAINT [FK_datSupplierContacts_datSuppliers] FOREIGN KEY([SupplierID])
-REFERENCES [dbo].[datSuppliers] ([SuppierID])
+ALTER TABLE [dbo].[datVendorContacts]  WITH CHECK ADD  CONSTRAINT [FK_datVendorContacts_datVendors] FOREIGN KEY([VendorID])
+REFERENCES [dbo].[datVendors] ([VendorID])
 GO
 
-ALTER TABLE [dbo].[datSupplierContacts] CHECK CONSTRAINT [FK_datSupplierContacts_datSuppliers]
+ALTER TABLE [dbo].[datVendorContacts] CHECK CONSTRAINT [FK_datVendorContacts_datVendors]
 GO
 

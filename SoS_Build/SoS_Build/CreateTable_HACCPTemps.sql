@@ -1,0 +1,23 @@
+USE [SoS_Build]
+GO
+
+/****** Object:  Table [dbo].[HACCPTemps]    Script Date: 4/2/2018 1:37:33 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[HACCPTemps](
+	[TempID] [int] IDENTITY(1,1) NOT NULL,
+	[ParentID] [int] NOT NULL,
+	[Temp] [float] NOT NULL,
+	[DateTime] [datetime] NOT NULL,
+ CONSTRAINT [PK_HACCPTemps] PRIMARY KEY CLUSTERED 
+(
+	[TempID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
