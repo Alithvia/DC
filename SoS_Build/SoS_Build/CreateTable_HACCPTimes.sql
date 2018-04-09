@@ -1,0 +1,32 @@
+USE [SoS_Build]
+GO
+
+/****** Object:  Table [dbo].[HACCPTimes]    Script Date: 4/2/2018 1:38:06 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[HACCPTimes](
+	[TimeID] [int] IDENTITY(1,1) NOT NULL,
+	[ParentID] [int] NOT NULL,
+	[DateTime] [datetime] NOT NULL,
+	[TimeTypeID] [int] NOT NULL,
+	[EmployeeID] [int] NOT NULL,
+ CONSTRAINT [PK_HACCPTimes] PRIMARY KEY CLUSTERED 
+(
+	[TimeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[HACCPTimes]  WITH CHECK ADD  CONSTRAINT [FK_HACCPTimes_luTimeTypes] FOREIGN KEY([TimeTypeID])
+REFERENCES [dbo].[luTimeTypes] ([TimeTypeID])
+ON UPDATE CASCADE
+GO
+
+ALTER TABLE [dbo].[HACCPTimes] CHECK CONSTRAINT [FK_HACCPTimes_luTimeTypes]
+GO
+
+

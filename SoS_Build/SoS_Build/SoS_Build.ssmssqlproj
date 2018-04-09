@@ -25,9 +25,21 @@
           <AssociatedConnUserName />
           <FullPath>CreateTable_datAddresses.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateTable_datAssembly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datAssembly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datBoxes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datBoxes.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreateTable_datClientOrders.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datClientOrders.sql</FullPath>
         </FileNode>
@@ -50,8 +62,8 @@
           <FullPath>CreateTable_datContactType.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datCustomerOrders.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datCustomerOrders.sql</FullPath>
         </FileNode>
@@ -60,6 +72,18 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>CreateTable_datEmployees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datIngredientInventory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datIngredientInventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_datMeasurements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_datMeasurements.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datOrderDetails.sql">
           <AssociatedConnectionMoniker />
@@ -74,8 +98,8 @@
           <FullPath>CreateTable_datOrdersAndPackages.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datPackages.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datPackages.sql</FullPath>
         </FileNode>
@@ -104,20 +128,20 @@
           <FullPath>CreateTable_datPurchaseOrderDetails.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datPurchaseOrders.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datPurchaseOrders.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datShipments.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datShipments.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datSupplierContacts.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datSupplierContacts.sql</FullPath>
         </FileNode>
@@ -134,20 +158,20 @@
           <FullPath>CreateTable_datSuppliers.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datTrays.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datTrays.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datVehicleCleaning.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datVehicleCleaning.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_datVehicles.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_datVehicles.sql</FullPath>
         </FileNode>
@@ -162,6 +186,24 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>CreateTable_datVendors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_HACCPTemps.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_HACCPTemps.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_HACCPTimes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_HACCPTimes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_jncAssembly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_jncAssembly.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_jncClientAddresses.sql">
           <AssociatedConnectionMoniker />
@@ -188,14 +230,14 @@
           <FullPath>CreateTable_jncEmployeeContacts.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_jncOrdersAndPackages.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_jncOrdersAndPackages.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_jncPurchaseOrders.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_jncPurchaseOrders.sql</FullPath>
         </FileNode>
@@ -211,6 +253,12 @@
           <AssociatedConnUserName />
           <FullPath>CreateTable_jncVendorAddresses.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateTable_luAssemblyTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luAssemblyTypes.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreateTable_luCities.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -218,8 +266,8 @@
           <FullPath>CreateTable_luCities.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_luContactType.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_luContactType.sql</FullPath>
         </FileNode>
@@ -228,6 +276,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>CreateTable_luCountries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luIngredients.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luIngredients.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_luPhoneTypes.sql">
           <AssociatedConnectionMoniker />
@@ -242,8 +296,8 @@
           <FullPath>CreateTable_luPositions.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTable_luProducts.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_luProducts.sql</FullPath>
         </FileNode>
@@ -253,9 +307,21 @@
           <AssociatedConnUserName />
           <FullPath>CreateTable_luProvinces.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateTable_luTimeTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luTimeTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTable_luUnits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTable_luUnits.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreateTable_luVehicleTypes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1MRPNV6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1MRPNV6</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreateTable_luVehicleTypes.sql</FullPath>
         </FileNode>
