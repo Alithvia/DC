@@ -1,4 +1,4 @@
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luCountries]    Script Date: 3/25/2018 9:02:45 AM ******/
@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[luCountries](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luProvinces]    Script Date: 3/25/2018 9:03:36 AM ******/
@@ -47,7 +47,7 @@ GO
 ALTER TABLE [dbo].[luProvinces] CHECK CONSTRAINT [FK_luProvinces_luCountries]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luCities]    Script Date: 3/25/2018 9:02:19 AM ******/
@@ -76,7 +76,7 @@ GO
 ALTER TABLE [dbo].[luCities] CHECK CONSTRAINT [FK_luCities_luProvinces]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datVendors]    Script Date: 3/13/2018 6:03:00 PM ******/
@@ -97,7 +97,7 @@ CREATE TABLE [dbo].[datVendors](
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datAddresses]    Script Date: 3/25/2018 8:55:19 AM ******/
@@ -126,7 +126,7 @@ GO
 ALTER TABLE [dbo].[datAddresses] CHECK CONSTRAINT [FK_datAddresses_luCities]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncVendorAddresses]    Script Date: 3/13/2018 6:02:42 PM ******/
@@ -164,7 +164,7 @@ ALTER TABLE [dbo].[jncVendorAddresses] CHECK CONSTRAINT [FK_jncVendorAddresses_d
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luPositions]    Script Date: 3/25/2018 9:03:09 AM ******/
@@ -184,7 +184,7 @@ CREATE TABLE [dbo].[luPositions](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datEmployees]    Script Date: 3/25/2018 8:56:24 AM ******/
@@ -212,7 +212,7 @@ GO
 ALTER TABLE [dbo].[datEmployees] CHECK CONSTRAINT [FK_datEmployees_luPositions]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luPhoneTypes]    Script Date: 3/25/2018 9:02:58 AM ******/
@@ -232,7 +232,7 @@ CREATE TABLE [dbo].[luPhoneTypes](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datPhones]    Script Date: 3/25/2018 8:57:40 AM ******/
@@ -262,7 +262,7 @@ GO
 ALTER TABLE [dbo].[datPhones] CHECK CONSTRAINT [FK_datPhones_luPhoneTypes]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datPeople]    Script Date: 3/25/2018 8:57:27 AM ******/
@@ -284,7 +284,7 @@ CREATE TABLE [dbo].[datPeople](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luContactType]    Script Date: 3/25/2018 9:02:30 AM ******/
@@ -304,7 +304,7 @@ CREATE TABLE [dbo].[luContactType](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datContacts]    Script Date: 3/25/2018 8:56:08 AM ******/
@@ -350,7 +350,7 @@ GO
 ALTER TABLE [dbo].[datContacts] CHECK CONSTRAINT [FK_datContacts_luContactType1]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncEmployeeContacts]    Script Date: 3/25/2018 9:00:33 AM ******/
@@ -386,7 +386,7 @@ GO
 ALTER TABLE [dbo].[jncEmployeeContacts] CHECK CONSTRAINT [FK_jncEmployeeContacts_datEmployees]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datClients]    Script Date: 3/25/2018 8:55:52 AM ******/
@@ -406,7 +406,7 @@ CREATE TABLE [dbo].[datClients](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncClientAddresses]    Script Date: 3/25/2018 8:59:49 AM ******/
@@ -445,7 +445,7 @@ GO
 ALTER TABLE [dbo].[jncClientAddresses] CHECK CONSTRAINT [FK_jncClientAddresses_datClients]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncClientContacts]    Script Date: 3/25/2018 9:00:05 AM ******/
@@ -482,7 +482,7 @@ GO
 ALTER TABLE [dbo].[jncClientContacts] CHECK CONSTRAINT [FK_jncClientContacts_datContacts]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datClientOrders]    Script Date: 3/25/2018 8:55:39 AM ******/
@@ -510,7 +510,7 @@ GO
 ALTER TABLE [dbo].[datClientOrders] CHECK CONSTRAINT [FK_datClientOrders_datClients]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datTrays]    Script Date: 3/25/2018 8:58:40 AM ******/
@@ -530,7 +530,7 @@ CREATE TABLE [dbo].[datTrays](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datPackages]    Script Date: 3/25/2018 8:57:15 AM ******/
@@ -559,7 +559,7 @@ GO
 ALTER TABLE [dbo].[datPackages] CHECK CONSTRAINT [FK_datPackages_datTrays]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncOrdersAndPackages]    Script Date: 3/25/2018 9:00:51 AM ******/
@@ -595,7 +595,7 @@ GO
 ALTER TABLE [dbo].[jncOrdersAndPackages] CHECK CONSTRAINT [FK_jncOrdersAndPackages_datPackages]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luVehicleTypes]    Script Date: 3/25/2018 9:03:48 AM ******/
@@ -615,7 +615,7 @@ CREATE TABLE [dbo].[luVehicleTypes](
 ) ON [PRIMARY]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datVehicles]    Script Date: 3/25/2018 8:59:06 AM ******/
@@ -645,7 +645,7 @@ GO
 ALTER TABLE [dbo].[datVehicles] CHECK CONSTRAINT [FK_datVehicles_luVehicleTypes]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datVehicleCleaning]    Script Date: 3/25/2018 8:58:54 AM ******/
@@ -683,7 +683,7 @@ GO
 ALTER TABLE [dbo].[datVehicleCleaning] CHECK CONSTRAINT [FK_datVehicleCleaning_datVehicles]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datShipments]    Script Date: 3/25/2018 8:58:09 AM ******/
@@ -729,7 +729,7 @@ GO
 ALTER TABLE [dbo].[datShipments] CHECK CONSTRAINT [FK_datShipments_datVehicles]
 GO
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datPurchaseOrders]    Script Date: 4/2/2018 1:35:47 PM ******/
@@ -760,7 +760,7 @@ ALTER TABLE [dbo].[datPurchaseOrders] CHECK CONSTRAINT [FK_datPurchaseOrders_dat
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luUnits]    Script Date: 4/2/2018 1:48:20 PM ******/
@@ -781,7 +781,7 @@ CREATE TABLE [dbo].[luUnits](
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luIngredients]    Script Date: 4/2/2018 1:42:03 PM ******/
@@ -802,7 +802,7 @@ CREATE TABLE [dbo].[luIngredients](
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datIngredientInventory]    Script Date: 4/2/2018 1:33:19 PM ******/
@@ -851,7 +851,7 @@ ALTER TABLE [dbo].[datIngredientInventory] CHECK CONSTRAINT [FK_datIngredientInv
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luAssemblyTypes]    Script Date: 4/2/2018 1:40:46 PM ******/
@@ -872,7 +872,7 @@ CREATE TABLE [dbo].[luAssemblyTypes](
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datAssembly]    Script Date: 4/2/2018 1:31:40 PM ******/
@@ -903,7 +903,7 @@ ALTER TABLE [dbo].[datAssembly] CHECK CONSTRAINT [FK_datAssembly_luAssemblyTypes
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[jncAssembly]    Script Date: 4/2/2018 1:38:46 PM ******/
@@ -949,7 +949,7 @@ ALTER TABLE [dbo].[jncAssembly] CHECK CONSTRAINT [FK_jncAssembly_luUnits]
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datBoxes]    Script Date: 4/2/2018 1:55:07 PM ******/
@@ -978,7 +978,7 @@ ALTER TABLE [dbo].[datBoxes] CHECK CONSTRAINT [FK_datBoxes_datAssembly]
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[luTimeTypes]    Script Date: 4/2/2018 1:42:36 PM ******/
@@ -1016,7 +1016,7 @@ ALTER TABLE [dbo].[luTimeTypes] CHECK CONSTRAINT [FK_luTimeTypes_luIngredients]
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[HACCPTimes]    Script Date: 4/2/2018 1:38:06 PM ******/
@@ -1048,7 +1048,7 @@ ALTER TABLE [dbo].[HACCPTimes] CHECK CONSTRAINT [FK_HACCPTimes_luTimeTypes]
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[HACCPTemps]    Script Date: 4/2/2018 1:37:33 PM ******/
@@ -1071,7 +1071,7 @@ CREATE TABLE [dbo].[HACCPTemps](
 GO
 
 
-USE [SoS_Build]
+USE [SoS_Script_Test]
 GO
 
 /****** Object:  Table [dbo].[datMeasurements]    Script Date: 4/2/2018 1:34:28 PM ******/
