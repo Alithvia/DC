@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<codeSmith xmlns="http://www.codesmithtools.com/schema/csp.xsd">
+  <variables>
+    <add key="ConnectionString1" value="Data Source=QASIM\SQLSERVER01;Initial Catalog=SoS_Script_Test;Integrated Security=True" />
+  </variables>
+  <propertySets>
+    <propertySet name="DBLMain.txt" output="DBLMain.txt" template="C:\Users\Qasim\Documents\CodeSmith Generator\Templates\DBL\DBLMain.cst">
+      <property name="ViewsNameSpace">Views</property>
+      <property name="UseCRUDStoredProcedures">True</property>
+      <property name="KeyFieldName">KeyID</property>
+      <property name="TableFieldName">TableNameString</property>
+      <property name="FieldFieldName">FieldNameString</property>
+      <property name="UserNameFieldName">UserNameString</property>
+      <property name="UpdateTypeNameFieldName">UpdateType</property>
+      <property name="TimeStampFieldName">DateTimeChangeMade</property>
+      <property name="NewValueFieldName">NewValue</property>
+      <property name="TablesNameSpace">Tables</property>
+      <property name="EnumDefaultDisplayColumn">DisplayValue</property>
+      <property name="ProcedurePrefix">sp</property>
+      <property name="IncludeDropStatements">True</property>
+      <property name="TablePrefix">tbl</property>
+      <property name="AutoExecuteScript">False</property>
+      <property name="IncludeInsert">True</property>
+      <property name="IncludeUpdate">True</property>
+      <property name="IncludeInsertUpdate">True</property>
+      <property name="IncludeDelete">True</property>
+      <property name="IncludeSelect">True</property>
+      <property name="IncludeSelectAll">True</property>
+      <property name="IncludeSelectPaged">True</property>
+      <property name="IncludeSelectByForeignKey">True</property>
+      <property name="IncludeSelectByIndex">True</property>
+      <property name="IncludeSelectDynamic">True</property>
+      <property name="IncludeDeleteByForeignKey">True</property>
+      <property name="IncludeDeleteByIndex">True</property>
+      <property name="IncludeDeleteDynamic">True</property>
+      <property name="IncludeCRUDSPs">False</property>
+      <property name="SPsNameSpace">SPs</property>
+      <property name="IncludeSPs">True</property>
+      <property name="ConnectionName">Lookups.GetConnString</property>
+      <property name="IncludeMembershipAPIObjects">False</property>
+      <property name="IncludeCommunityServerAPIObjects">False</property>
+      <property name="IncludeNamespace">False</property>
+      <property name="SourceDatabase">
+        <connectionString>$(ConnectionString1)</connectionString>
+        <providerType>SchemaExplorer.SqlSchemaProvider,SchemaExplorer.SqlSchemaProvider</providerType>
+      </property>
+    </propertySet>
+  </propertySets>
+</codeSmith>
